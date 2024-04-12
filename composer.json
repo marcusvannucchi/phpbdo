@@ -1,0 +1,12 @@
+{
+    "name": "admin/phpbd",
+    "type": "project",
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    }
+}
